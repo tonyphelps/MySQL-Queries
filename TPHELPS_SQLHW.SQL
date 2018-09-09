@@ -130,7 +130,7 @@ SELECT film.title, COUNT(*) as Times_Rented
     
 #7f
 SELECT store, manager, total_sales from sales_by_store;
-
+#OR?
 SELECT store.store_id, SUM(amount) AS revenue
 FROM store INNER JOIN staff 
 ON store.store_id = staff.store_id
